@@ -72,7 +72,7 @@ namespace Serialize_People
             FileStream fs = new FileStream("Person.XML", FileMode.Open);
 
             
-            XmlSerializer xs = new XmlSerializer(typeof(Person);
+            XmlSerializer xs = new XmlSerializer(typeof(Person));
 
             
             dsp = (Person)xs.Deserialize(fs);
